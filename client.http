@@ -1,0 +1,36 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "username": "alyaazaf",
+    "password": "1256"
+}
+
+###
+GET   http://localhost:3000/bye
+
+###
+POST http://localhost:3000/hash
+Content-Type: application/json
+
+{
+    "username": "nanatersakiti",
+    "password": "333333"
+}
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "nanatersakiti",
+    "password": "333333",
+    "name": "syaminaminamina",
+    "email": "minaehehe@gmail.com"
+    
+}
+
